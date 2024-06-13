@@ -1,0 +1,12 @@
+.card {
+    border: 1px solid black;
+    -webkit-transition : border 500ms ease-out;
+    -moz-transition : border 500ms ease-out;
+    -o-transition : border 500ms ease-out;
+    transition : border 10ms ease-out;
+}
+
+.card:hover {
+    border: 4px solid rgb(158, 13, 78);
+   
+}

@@ -1,0 +1,3 @@
+Schema File
+
+In this project, the NoSql database is used in order to accomodate flexible schema and different types of 
