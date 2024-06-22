@@ -20,7 +20,7 @@ $ cd db_schema_dump
 
 ```
 Install MongoDB Compass GUI from here https://downloads.mongodb.com/compass/mongodb-compass-1.43.1-win32-x64.exe
-Then connect the database using the URI connection string in .env file.Once databse is established the collections are imported from the .json files in db_schema_dump folder.
+Then connect the database using the URI connection string in `.env` file.Once databse is established the collections are imported from the .json files in db_schema_dump folder.
 
 To run the app in development mode
 
