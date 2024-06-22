@@ -1,3 +1,26 @@
 Schema File
 
-In this project, the NoSql database is used in order to accomodate flexible schema and different types of 
+In this project, the NoSql database is used in order to accomodate flexible schema.
+
+Collections 
+
+CATEGORIES
+    + _id
+    + name
+    + items[]
+
+ITEMS 
+    + _id
+    + name
+    + price
+    + description
+    + availability
+
+BOOKINGS 
+    + _id
+    + category
+    + itemId
+    + itemName
+    + returnDate
+    + rentingDays
+    + price
