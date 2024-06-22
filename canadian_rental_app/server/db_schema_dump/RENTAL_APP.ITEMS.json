@@ -1,0 +1,208 @@
+[{
+  "_id": {
+    "$oid": "666a96195eac1103449edf97"
+  },
+  "name": "Grass Cutter",
+  "price": 10,
+  "description": "Innovative walk behind edging for a clean edge every time. The innovative axial fan design delivers 100 MPH and 300 CFM to clear hard surfaces quickly. Light weight and easy to use",
+  "availability": false
+},
+{
+  "_id": {
+    "$oid": "666a962eb6ce57075fdf964f"
+  },
+  "name": "Tree Cutter",
+  "price": 10,
+  "description": "This heavy duty garden lopper is ideal for cutting living limbs, branches, bushes & shrubs, the manual bush trimmers let you trim thicker shrubs more easily and pruning shears are snipping stems and light branches comfortably. With this tools kit, you can easily fix up the yard.",
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "666a9a27fd991eee34dbb1b2"
+  },
+  "name": "Drilling Machine",
+  "description": "The powerful 4-amp motor cuts a crisp, 13-inch swatch, making quick work of overgrown grass and heavy weeds.Weighing just 5 lbs,easy to maneuver in tight spaces, and the rotating head quickly converts from trimming to edging with four degrees of cutting, combining the convenience of two tools in one dynamic device, auto-feed feature ensures you'll always have the right length of line to continue cutting without interruption.",
+  "price": 5,
+  "photo": null,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "666a9aca6250440f9bb7a53b"
+  },
+  "name": "Bouncy House",
+  "description": "Castle Inflatable & Bounce Houses",
+  "price": 50,
+  "photo": null,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "666a9ba997ca99776712b930"
+  },
+  "name": "Rocking chair",
+  "description": "The rocking arm chair provides a smooth and comfortable rocking motion.The rocker stylish legs make you relaxed while you are sun-bathing, refreshing your mind or even reading in your yard, patio or balcony. Even it can be used in the nursery.The glider rocker chair is coved in a durable resin wicker, which twined on the backrest and armrest ensure comfortable lounging.",
+  "price": 5,
+  "photo": null,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "666a9be6c700197d3f398d2c"
+  },
+  "name": "My Experiments with Truth",
+  "description": "Experience the inspiring and transformative story o Mahatma Gandhi's life in this deluxe hardbound edition. This autobiography chronicles Gandhi's journey from his early years to his role as a leader of India's struggle for independence. This autobiography offers deep insights into his personal life, principles, and philosophy.",
+  "price": 2,
+  "photo": null,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "666a9c95e72a5bda1c2c935b"
+  },
+  "name": "Carson Crosses Canada",
+  "description": "Feisty Annie Magruder and her dog, Carson, live in British Columbia, Canada, and they're setting out to visit her sister, Elsie, in Newfoundland. In their little rattlebang car, packed with Carson's favorite toy, Squeaky Chicken, and plenty of baloney sandwiches, Annie and Carson hit the road! They travel province by province, taking in each unique landscape and experiencing something special to that particular part of this vast, grand country. For example, they marvel at the beauty of the big, open sky -- and grasshoppers! -- in Saskatchewan and discover the gorgeous red earth and delicious lobster rolls in PEI, before finally being greeted by Elsie -- and a surprise for Carson!",
+  "price": 3,
+  "photo": null,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "667670f194a4a1e49589ab1f"
+  },
+  "name": "The Girl Who Makes a Million Mistakes",
+  "description": "A powerful growth mindset book that builds resilience in children and prepares them for life's adversities. Kids will feel strong, confident, and ready to pursue their biggest dreams!",
+  "price": 5,
+  "photo": null,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "66767168ce772db0a51749cd"
+  },
+  "name": "Essentialism: The Disciplined Pursuit of Less",
+  "description": "Greg McKeown writes, teaches, and speaks around the world on the importance of living and leading as an Essentialist. He has spoken at companies including Apple, Google, Facebook, LinkedIn, Salesforce, Symantec, and Twitter and is among the most popular bloggers for the Harvard Business Review and LinkedIn Influencer’s group. He co-created the course, Designing Life, Essentially at Stanford University, was a collaborator of the Wall Street Journal bestseller Multipliers and serves as a Young Global Leader for the World Economic Forum. He holds an MBA from Stanford University.",
+  "price": 3,
+  "photo": null,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "667671bc916e93ead00e8f95"
+  },
+  "name": "Atomic Habits",
+  "description": "No matter your goals, Atomic Habits offers a proven framework for improving--every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.",
+  "price": 3,
+  "photo": null,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "667671ed9a276c97b33fa3d1"
+  },
+  "name": "Dopamine Detox",
+  "description": "Do you keep procrastinating? Do you feel restless and unable to focus on your work? Do you have trouble getting excited about major goals?",
+  "price": 3,
+  "photo": null,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "6676722808e9fdb60a063f9b"
+  },
+  "name": "Master Your Emotions",
+  "description": "Understanding how negative feelings and emotions work is the first step. Then we must learn how to reprogram those emotions and turn them around. A happier life is possible if you follow the steps",
+  "price": 5,
+  "photo": null,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "667672b6798556860cc731d2"
+  },
+  "name": "Uuoeebb 4 in 1 Baby Bassinet Bedside Sleeper",
+  "description": "This bedside bassinet for baby is equipped with 4 convertible modes, the travel bassinet for baby foldable can be used as a standalone baby crib with mosquito net, bassinet bedside sleeper attached to the adult bed, baby cradle and baby diaper changing station. mother can change the mode freely to meet your different needs. Uuoeebb black bedside crib will be a great helper for you to look after your baby",
+  "price": 1,
+  "photo": null,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "667673080d44c58ae9d6b6d5"
+  },
+  "name": "Baby Gym Play Mat",
+  "description": "Our lion baby play mat is specially designed with green tree, brown branch and comes with ball pit and 4 colorful balls, which can attract your baby well and you can have fun with your baby to enhance parent-child relationship",
+  "price": 2,
+  "photo": null,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "6676735424445689938c2ef9"
+  },
+  "name": "Angelcare Baby Bath Support",
+  "description": "The Angelcare bath support takes the worry out of bath time. This is the one baby care products every new mom and dad should have. designed for comfort, the bath support is mildew free and hygienic. The Angelcare bath support is recommended for babies less than 6 months of age. Maximum recommended weight capacity is 9 Kilos (20 lbs). No assembly is required.",
+  "price": 1,
+  "photo": null,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "667673a4e52d49734b144873"
+  },
+  "name": "Cool Baby Carrier Newborn to Toddler",
+  "description": "From Newborn to Toddler: Our lightweight & soft baby chest carrier features an adjustable seat that grows with your little one from first outings to early toddlerhood",
+  "price": 2,
+  "photo": null,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "66767410cfc53fa2a5644112"
+  },
+  "name": "Indoor Bouncy Castle for Kids",
+  "description": "This inflatable bounce house is perfect for birthday gifts, Christmas gifts, etc. It will give children cheer while promoting them to grow a healthy physique",
+  "price": 10,
+  "photo": null,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "66767458a4b704df50745916"
+  },
+  "name": "White Bouncy Castle for Kids 2 to 4 Years,",
+  "description": "Inflatable Bounce House with Slide & Ball Pit, 2.7m (L) x 2.7m (W) White Inflatable Bounce Castles Indoor Outdoor with UL-Certified Blower",
+  "price": 14,
+  "photo": null,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "667674d7b97cb16a3c1fa755"
+  },
+  "name": "Greenworks Lawn Mower",
+  "description": "2-in-1 feature provides mulching and rear bagging capabilities Up To 45-minutes run-time with 2 fully charged 4Ah batteries, run-time caries based on grass condition and operator technique Charge both batteries at once with included dual port charge",
+  "price": 15,
+  "photo": null,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "66767528c9d0a89b83e5c8d4"
+  },
+  "name": "DEWALT 6-1/2-Inch 20V MAX Circular Saw",
+  "description": "5150 RPM motor of DEWALT circular saw delivers power and speed to make the most demanding cuts with ease High strength and lightweight magnesium shoe of the corded circular saw provides jobsite durability for long-term cut accuracy",
+  "price": 5,
+  "photo": null,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "6676756fabb6f45226e46448"
+  },
+  "name": "21V Cordless Drill Set 60NM",
+  "description": "Versatile & 3 in1 Practical Tool Set: Perfect for DIY enthusiasts, beginners, and professionals. A practical gift for Father's Day, boyfriend/girlfriend, friends. This drill kit is ideal for home projects like furniture assembly, kitchen cabinet installation, and shelf construction. It features 3 modes for screwing, drilling, and impact drilling, suitable for various materials including wood, metal, tiles, concrete, and bricks.",
+  "price": 10,
+  "photo": null,
+  "availability": true
+}]

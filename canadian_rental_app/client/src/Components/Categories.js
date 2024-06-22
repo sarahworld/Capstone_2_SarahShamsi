@@ -14,23 +14,23 @@ const Categories = () => {
                 setCategories(res.data)
             }
             catch(err){
-                console.err(err);
+                console.log(err);
             }
            
         };
         fetchData();
     },[])
-
+   
 
     return(
-       <div className="container text-center">
+       <div className="container text-center mt-5">
            
             <div className="row">
-            {categories && categories.map(category => 
+            {categories && Object.keys(categories).map(key => 
                 <div className="col">
-                    <Link to={`/${category}`} className="no-underline">
-                    <div className="category-card" key={category}>
-                      {category}  
+                    <Link to={`/${categories[key]}`} className="no-underline">
+                    <div className="category-card" key={key}>
+                      <h4>{categories[key]}</h4>
                     </div>
                     </Link>
                     

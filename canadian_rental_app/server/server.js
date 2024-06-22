@@ -1,20 +1,19 @@
 import express from "express";
 import cors from "cors";
 
+import categories from "./routes/category.js";
+import bookings from "./routes/bookings.js";
 
 
 const app = express();
 const PORT = process.env.PORT || 5050;
-import categories from "./routes/category.js"
+
 
 app.use(cors());
 app.use(express.json());
-app.use("/", categories);
 
-// app.get('/', (req,res) => {
-//   // TODO: get categories from db
-//   res.send("Hello World!")
-// })
+app.use("/", categories);
+// app.use("/bookings", bookings);
 
 
 // start the Express server

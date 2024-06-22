@@ -3,17 +3,16 @@
 
 .category-card {
     width: 30vh;
-    height:15vh;
-    /* background-color: rgb(231, 159, 195);  */
+    height:20vh;
     align-content: center;
-    background-image: linear-gradient(rgb(99, 129, 227),rgb(98, 201, 105));
+    background-image: linear-gradient(rgb(238, 97, 87),rgb(218, 113, 197));
     border: 1px solid rgb(204, 240, 241);
     -webkit-transition : border 500ms ease-out;
     -moz-transition : border 500ms ease-out;
     -o-transition : border 500ms ease-out;
     transition : border 10ms ease-out;
     border-radius: 10px;
-    
+   
 }
 
 .category-card:hover {
@@ -31,3 +30,5 @@ img {
     text-decoration: none;
     color: inherit;
 }
+
+

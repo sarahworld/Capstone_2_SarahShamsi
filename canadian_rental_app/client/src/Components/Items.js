@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { redirect, useParams, Link } from "react-router-dom";
 import './items.css';
-import ItemDetailModal from "../ItemDetailModal";
+import ItemDetailModal from "./ItemDetailModal";
 
 const Items = () => {
 
@@ -12,23 +12,18 @@ const Items = () => {
     const [selectedItem, setSelectedItem] = useState(null)
     const [modalOpen, setModalOpen] = useState(false)
     
-    
     useEffect(() => {
         const fetchItems = async () => {
             let res = await axios.get(`http://localhost:5050/${category}`);
             setItems(res.data)
-
         }
         fetchItems();
     },[])
     
     const handleClick = (item) => {
-        // TODO: MAke sure user is logged in if not ask for sign In else take to modal.
         setSelectedItem(item)
         toggleModal()
     }
-
-    
 
     const toggleModal = () => setModalOpen(!modalOpen)
 
@@ -38,27 +33,19 @@ const Items = () => {
 
             <div className="container text-center">
             <div className="row">
-            {items && items.map(item => 
-                <div className="col">
-                    
-                    <div className="card" key={item.name} onClick={()=>handleClick(item)}>
-
-                        <div className="card-title"><h4 className="display-5">{item.name}</h4><h5 className="display-5">{`$${item.price}/day`}</h5></div>
-                        <div className="card-body">
-                         {item.description}
-                        </div>
-                    </div>
-                   
-                    
+            {items && items.map((item, index)=> 
+            
+                <div className="col-md-4 mb-4" key={index}>
+                    <div className="card" key={item[0]._id} onClick={()=>handleClick(item[0])}>
+                        <div className="card-title"><h3>{item[0].name}</h3><h4>${item[0].price}/day</h4></div>
+                    </div>                   
                 </div>
             )}
             </div>
-
-            {
-                selectedItem && (
-                    <ItemDetailModal isOpen={modalOpen} toggle={toggleModal} item={selectedItem}/>
-                )
-            }
+                {selectedItem && (
+                    <ItemDetailModal isOpen={modalOpen} toggle={toggleModal} item={selectedItem} category={category}/>
+                )}
+            
         </div>
         </div>
     )
